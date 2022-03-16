@@ -16,7 +16,7 @@ function App() {
       <h2>Welcome Home</h2>
       <Navbar />
       <Routes>
-        {/* ok */}
+        {/* ok. */}
         {/* {routes.map((item) => {
           if (2 > 1) {
             return <Route path={item.path} element={<item.element />} />;
