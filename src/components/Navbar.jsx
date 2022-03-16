@@ -29,6 +29,16 @@ const Navbar = () => {
           Login
         </NavLink>
       </li>
+      <li className='nav-item '>
+        <NavLink
+          to='/blogs'
+          className={({ isActive }) => 'nav-link' + (isActive ? ' activated' : '')}
+          // onClick={() => handleNavigate('/login')}
+          // className='nav-link text-white'
+        >
+          Blogs
+        </NavLink>
+      </li>
     </ul>
   );
 };

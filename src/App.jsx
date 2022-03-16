@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router';
-import { Home, Login } from './pages/';
+import { Home, Login, Blogs, ViewBlog } from './pages/';
 import { Navbar } from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
@@ -10,6 +10,8 @@ function App() {
   const routes = [
     { path: '/home', element: <Home /> },
     { path: '/login', element: <Login /> },
+    { path: '/blogs', element: <Blogs /> },
+    { path: '/blogs/:id', element: <ViewBlog /> },
   ];
   return (
     <div>
